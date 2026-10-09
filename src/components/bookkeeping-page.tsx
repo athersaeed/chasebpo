@@ -4,8 +4,8 @@ import Link from "next/link";
 import { ArrowIcon, CheckIcon, ServiceLineIcon } from "@/components/icons";
 import type { BookkeepingPageContent } from "@/lib/bookkeeping-content";
 
-const phoneDisplay = "+1 (437) 230-5305";
-const phoneHref = "tel:+14372305305";
+const phoneDisplay = "(647) 574-7151";
+const phoneHref = "tel:+16475747151";
 const email = "contact@chasebpo.com";
 
 export function BookkeepingPage({ content }: { content: BookkeepingPageContent }) {

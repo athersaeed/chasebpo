@@ -39,8 +39,8 @@ img { display: block; }
 .topline-contact a { transition: color 160ms ease; }
 .site-header { position: relative; z-index: 20; background: rgba(255, 253, 250, 0.97); border-bottom: 1px solid rgba(13, 32, 70, 0.08); }
 .nav-row { min-height: 91px; display: flex; align-items: center; gap: 28px; }
-.brand { flex: 0 0 auto; width: 118px; height: 74px; display: grid; place-items: center; overflow: hidden; border-radius: 5px 22px 5px 5px; background: var(--navy-900); }
-.brand-logo { width: 96px; height: 78px; object-fit: contain; }
+.brand { flex: 0 0 auto; width: 112px; min-height: 76px; padding: 6px 16px; display: grid; place-items: center; border-radius: 8px; background: var(--navy-900); }
+.brand-logo { width: 80px; height: auto; object-fit: contain; }
 .desktop-nav { display: flex; align-items: center; gap: 28px; margin-left: auto; color: #2b3951; font-size: 14px; font-weight: 600; }
 .desktop-nav a { position: relative; padding-block: 12px; }
 .desktop-nav a::after { content: ""; position: absolute; inset: auto 0 5px; height: 1px; background: var(--orange-500); transform: scaleX(0); transform-origin: right; transition: transform 180ms var(--ease-out); }
@@ -191,8 +191,8 @@ img { display: block; }
   .page-wrap { width: min(100% - 30px, 1180px); }
   .topline { display: none; }
   .nav-row { min-height: 76px; gap: 10px; }
-  .brand { width: 72px; height: 60px; border-radius: 4px 15px 4px 4px; }
-  .brand-logo { width: 66px; height: 54px; }
+  .brand { width: 72px; min-height: 60px; padding: 6px 7px; border-radius: 6px; }
+  .brand-logo { width: 58px; height: auto; }
   .desktop-nav { margin-left: auto; gap: 13px; font-size: 12px; }
   .desktop-nav a:nth-child(n+3) { display: none; }
   .button-small { min-height: 38px; padding-inline: 12px; font-size: 0; }
